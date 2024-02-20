@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tryTodoList.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <h1>Todo<span>List</span></h1>
+      </div>
+      <div class="content">
+        <div class="enterList">
+          <input
+            type="text"
+            id="listInput"
+            placeholder="Enter your task here..."
+          />
+          <button onclick="addToList()">Add to List</button>
+        </div>
+        <div class="todoMain">
+          <ul id="index"></ul>
+          <ul id="listItem"></ul>
+          <ul id="removeItem"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
